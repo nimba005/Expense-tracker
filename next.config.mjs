@@ -2,8 +2,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: isProd ? '/expense-tracker' : '',
-  assetPrefix: isProd ? '/expense-tracker/' : '',
+  basePath: '/expense-tracker',
+  assetPrefix: '/expense-tracker/',
 };
 
 export default nextConfig;
